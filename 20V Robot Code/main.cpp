@@ -1,5 +1,8 @@
 #include "lemlib/api.hpp" // IWYU pragma: keep
 
+// controller 
+pros::Controller controller(pros::E_CONTROLLER_MASTER);
+
 
 // Config the Motors 
 pros::MotorGroup left_motors({-1, 2, 3}, pros::MotorGearset::blue); // left motors on ports 1 (1st), 2 (2nd), 3 (3rd)

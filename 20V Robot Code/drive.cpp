@@ -2,7 +2,7 @@
 # include "main.cpp"
 
 //arcade drive
-pros::Controller controller(pros::E_CONTROLLER_MASTER);
+
 
 void opcontrol() {
     // loop forever
